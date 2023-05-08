@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Apple Inc.",
+      "ticker": "AAPL",
+      "price": "\$149.06",
+      "price_future": "\$155.25",
+      "sector": "Technology",
+      "percentage": 0.52
+    },
+    {
+      "name": "Tesla Inc.",
+      "ticker": "TSLA",
+      "price": "\$725.32",
+      "price_future": "\$700.15",
+      "sector": "Automotive",
+      "percentage": -1.24
+    },
+    {
+      "name": "Amazon.com Inc.",
+      "ticker": "AMZN",
+      "price": "\$3,143.87",
+      "price_future": "\$3,200.50",
+      "sector": "Retail",
+      "percentage": 2.81
+    }
+  ]
+  
