@@ -43,6 +43,14 @@ class _InvestmentPortfolioState extends State<InvestmentPortfolio> {
       "backgroundColor": Colors.green[600],
     },
   ];
+
+  String calculatePercentage(Map<String, dynamic> data) {
+    double price = data['price'];
+    double priceFuture = data['price_future'];
+    double percentage = ((price - priceFuture) / price) * 100;
+    return '${percentage.toStringAsFixed(2)}%';
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
